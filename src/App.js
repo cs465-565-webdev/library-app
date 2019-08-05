@@ -1,11 +1,6 @@
 import React from "react";
-// import React, { createElement } from "react";
-// import ReactDOM from "react-dom";
 import { render } from "react-dom";
-// import { Book } from "./Book";
 import Book from "./Book";
-
-const character = "luke";
 
 const App = () => {
   return React.createElement("div", { id: "some-attr" }, [
